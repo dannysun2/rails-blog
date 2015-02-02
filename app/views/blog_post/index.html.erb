@@ -1,0 +1,7 @@
+<% @posts.each do |x|%>
+<div class="blog-post">
+<h1><%= link_to x.title, x %></h1>
+<h2 class="author"><i class="glyphicon glyphicon-pencil"></i>By <%= x.author %></h2>
+<p><%= x.content %></p>
+</div>
+<%end%>
