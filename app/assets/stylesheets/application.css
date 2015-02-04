@@ -13,6 +13,19 @@
  *= require_tree .
  *= require_self
  */
+ html body {
+    font-family: 'Raleway', sans-serif;
+    background: #EEEEEE;
+}
+html body a {
+   font-size: 30px;
+   text-decoration: none !important;
+}
+
+html body h1 {
+   font-size: 30px;
+}
+
  .row.no-gutter {
     margin-left: 0;
     margin-right: 0;
@@ -35,4 +48,9 @@
 
 i {
    padding-right: 15px;
+}
+
+.time-padding {
+   font-size: 10px;
+   padding-top: 10px;
 }

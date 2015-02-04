@@ -5,6 +5,7 @@
   <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
+  <link href='http://fonts.googleapis.com/css?family=Raleway:600,700,400' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
 <!-- Optional theme -->
@@ -16,7 +17,6 @@
    <div class="blog-header">
         <h1 class="blog-title"><%=link_to "Danny's Domain", root_path%></h1>
         <p class="lead blog-description">The official blog of Danny Sun.</p>
-     </div>
         <div class="row no-gutter">
            <div class="col-md-12 no-pad">
            <%= yield %>
